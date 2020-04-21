@@ -1,0 +1,47 @@
+.navbar .nav-item .dropdown-item {
+    color: #281767 !important;
+}
+
+.dropdown-toggle::after {
+    position: relative;
+    top: 2px;
+}
+
+@media(max-width:768px) {
+    #bajad {
+        display: none !important;
+    }
+
+    .navbar .nav-item a {
+        margin: 5px 0 !important;
+    }
+}
+
+.wsp {
+    width: 60px;
+    height: 60px;
+    background: #128c7e;
+    padding: 5px;
+    color: #fff;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 100px;
+    z-index: 999999999999999999;
+}
+
+.wsp:hover {
+    background: #075e54;
+}
+
+.wsp:hover i {
+    color: #fff;
+}
+
+.wsp i {
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+    left: 10px;
+    top: 7px;
+}
